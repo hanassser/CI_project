@@ -24,7 +24,7 @@ public class CalculatorTest {
         assertEquals(8,cal.add(5,3));
     }
     @Test
-    public void Testadd() throws Exception {
+    public void Testadd1() throws Exception {
         assertEquals(14,cal.add(7,7));
     }
 
