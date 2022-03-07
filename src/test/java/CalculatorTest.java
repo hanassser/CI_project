@@ -23,6 +23,10 @@ public class CalculatorTest {
     public void Testadd() throws Exception {
         assertEquals(8,cal.add(5,3));
     }
+    @Test
+    public void Testadd() throws Exception {
+        assertEquals(14,cal.add(7,7));
+    }
 
     @Test
     public void testSubtract() throws Exception {
